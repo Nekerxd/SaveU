@@ -162,7 +162,7 @@ aside .fechar{
     display: none;
 }
 
-/* ====================== SIDEBAR ====================== */
+/* ====================== Sidebar ====================== */
 
 aside .sidebar{
     display: flex;
@@ -461,7 +461,7 @@ main .ultimos-lancamentos a{
     margin-bottom: 1rem;
 }
 
-/* ====================== Investimentos ====================== */
+/* ====================== Cotações ====================== */
 
 .direita .cotacao{
     margin-top: 2rem;
