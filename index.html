@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>SaveU Money</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="topo">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="">
+                    <h2><span class="perigo">SaveU Money</span></h2>
+                </div>
+                <div class="fechar" id="btn-fechar">
+                    <span class="material-symbols-sharp">close</span>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-symbols-sharp">grid_view</span>
+                    <h3>Visão Geral</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">trending_up</span>
+                    <h3>Movimentações e caixa</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">credit_card</span>
+                    <h3>Cartões de crédito</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">account_balance</span>
+                    <h3>Extrato de contas</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">folder</span>
+                    <h3>Documentos</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-symbols-sharp">receipt_long</span>
+                    <h3>Relatórios</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">equalizer</span>
+                    <h3>Metas</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">settings</span>
+                    <h3>Configurações</h3>
+                </a>
+                <a href="#">
+                    <span class="material-symbols-sharp">logout</span>
+                    <h3>Desconectar</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- Fim do Aside -->
+        <main>
+            <h1>Visão Geral</h1>
+
+            <div class="data">
+                <input type="date">
+            </div>
+
+            <div class="movimentacao">
+                <div class="saldo">
+                    <span class="material-symbols-sharp">analytics</span>
+                    <div class="meio">
+                        <div class="esquerda">
+                            <h3>Saldo Total</h3>
+                            <h1>R$12.085,53</h1>
+                        </div>
+                        <div class="progresso">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="numero">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="texto-esmaecido">Últimas 24 Horas</small>
+                </div>
+                <!-- Final das vendas -->
+                <div class="despesa">
+                    <span class="material-symbols-sharp">bar_chart</span>
+                    <div class="meio">
+                        <div class="esquerda">
+                            <h3>Despesa Total</h3>
+                            <h1>R$15.729,00</h1>
+                        </div>
+                        <div class="progresso">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="numero">
+                                <p>71%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="texto-esmaecido">Últimas 24 Horas</small>
+                </div>
+                <!-- Final das despesas -->
+                <div class="receita">
+                    <span class="material-symbols-sharp">stacked_line_chart</span>
+                    <div class="meio">
+                        <div class="esquerda">
+                            <h3>Receita Total</h3>
+                            <h1>R$27.814,53</h1>
+                        </div>
+                        <div class="progresso">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="numero">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="texto-esmaecido">Últimas 24 Horas</small>
+                </div>
+                <!-- Final das receitas -->
+            </div>
+            <!-- Final das Movimentações -->
+
+            <div class="ultimos-lancamentos">
+                <h2>Últimos Lançamentos</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Categoria</th>
+                            <th>Valor</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Supermercado Sakashita</td>
+                            <td>Despesa</td>
+                            <td>R$358,07</td>
+                            <td class="sucesso">Pago</td>
+                            <td class="primaria detalhe">Detalhes</td>
+                        </tr>
+                        <tr>
+                            <td>Terra Seca Lanches</td>
+                            <td>Despesa</td>
+                            <td>R$49,90</td>
+                            <td class="sucesso">Pago</td>
+                            <td class="primaria detalhe">Detalhes</td>
+                        </tr>
+                        <tr>
+                            <td>ToIndo Passageiro</td>
+                            <td>Receita</td>
+                            <td>R$247,65</td>
+                            <td class="aviso">A receber</td>
+                            <td class="primaria detalhe">Detalhes</td>
+                        </tr>
+                        <tr>
+                            <td>Amazon Prime Video</td>
+                            <td>Despesa</td>
+                            <td>R$14,90</td>
+                            <td class="perigo">Em atraso</td>
+                            <td class="primaria detalhe">Detalhes</td>
+                        </tr>
+                        <tr>
+                            <td>Banco do Brasil (BBAS3)</td>
+                            <td>Receita</td>
+                            <td>R$113,25</td>
+                            <td class="sucesso">Recebido</td>
+                            <td class="primaria detalhe">Detalhes</td>
+                        </tr>
+                        <tr>
+                            <td>Netflix</td>
+                            <td>Despesa</td>
+                            <td>R$32,90</td>
+                            <td class="aviso">A pagar</td>
+                            <td class="primaria detalhe">Detalhes</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#">Mostrar Tudo</a>
+            </div>
+        </main>
+        <!-- Final da Main -->
+
+        <div class="direita">
+            <div class="topo">
+                <button id="btn-menu">
+                    <span class="material-symbols-sharp">menu</span>
+                </button>
+                <div class="modo-noturno">
+                    <span class="material-symbols-sharp active">light_mode</span>
+                    <span class="material-symbols-sharp">dark_mode</span>
+                </div>
+                <div class="perfil">
+                    <div class="info">
+                        <p>Olá, <b>Manotheus!</b></p>
+                        <small class="texto-esmaecido">21 notificações<span class="material-symbols-sharp">notification_important</span></small>
+                    </div>
+                    <div class="foto-perfil">
+                        <img src="./img/perfil-1.jpg">
+                    </div>
+                </div>
+
+            </div>
+            <!-- Final do topo -->
+
+            <div class="atualizacao-recente">
+                <h2>Atualizações Recentes</h2>
+                <div class="atualizacoes">
+                    <div class="atualizacao">
+                        <div class="foto-perfil">
+                            <img src="./img/perfil-2.jpg">
+                        </div>
+                        <div class="mensagem">
+                            <p><b>Natalnoel</b> atingiu a meta Viajar!</p>
+                            <small class="texto-esmaecido">2 Minutos atrás</small>
+                        </div>
+                    </div>
+                    <div class="atualizacao">
+                        <div class="foto-perfil">
+                            <img src="./img/perfil-3.jpg">
+                        </div>
+                        <div class="mensagem">
+                            <p><b>Elaine</b> atingiu um de seus objetivos!</p>
+                            <small class="texto-esmaecido">17 Minutos atrás</small>
+                        </div>
+                    </div>
+                    <div class="atualizacao">
+                        <div class="foto-perfil">
+                            <img src="./img/perfil-4.jpg">
+                        </div>
+                        <div class="mensagem">
+                            <p><b>Jakeline</b> estabeleceu uma nova meta!</p>
+                            <small class="texto-esmaecido">34 Minutos atrás</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Final das Atualizações Recentes -->
+            <div class="cotacao">
+                <h2>Cotações do dia</h2>
+                <div class="moeda dolar">
+                    <div class="icone">
+                        <span class="material-symbols-sharp">attach_money</span>
+                    </div>
+                    <div class="direita">
+                        <div class="info">
+                            <h3>Dólar</h3>
+                            <small class="text-esmaecido">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="perigo">-0,91%</h5>
+                        <h3>R$5,26</h3>
+                    </div>
+                </div>
+                <div class="moeda euro">
+                    <div class="icone">
+                        <span class="material-symbols-sharp">euro_symbol</span>
+                    </div>
+                    <div class="direita">
+                        <div class="info">
+                            <h3>Euro</h3>
+                            <small class="text-esmaecido">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="perigo">-0,73</h5>
+                        <h3>R$5,18</h3>
+                    </div>
+                </div>
+                <div class="moeda libra">
+                    <div class="icone">
+                        <span class="material-symbols-sharp">currency_pound</span>
+                    </div>
+                    <div class="direita">
+                        <div class="info">
+                            <h3>Libra</h3>
+                            <small class="text-esmaecido">Últimas 24 horas</small>
+                        </div>
+                        <h5 class="perigo">-1,05%</h5>
+                        <h3>R$5,94</h3>
+                    </div>
+                </div>
+                <div class="item nova-moeda">
+                    <div>
+                        <span class="material-symbols-sharp">add</span>
+                        <h3>Adicionar Moeda</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
