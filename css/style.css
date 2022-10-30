@@ -2,7 +2,7 @@
 
 /* Variáveis */
 :root {
-    --cor-primaria: #7380ec;
+    --cor-primaria: #0076CD;
     --cor-perigo: #ff7782;
     --cor-sucesso: #41f1b6;
     --cor-aviso: #ffbb55;
@@ -149,6 +149,7 @@ aside .topo{
 }
 
 aside .logo{
+    align-items: center;
     display: flex;
     gap: 0.8rem;
 }
