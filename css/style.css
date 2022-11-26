@@ -53,7 +53,7 @@ html{
 body{
     width: 100vw;
     height: 100vh;
-    font-family: poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: var(--cor-fundo);
     user-select: none;
     overflow-x: hidden;

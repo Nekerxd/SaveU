@@ -2,6 +2,25 @@ const sideMenu = document.querySelector("aside");
 const menuBtn = document.querySelector("#btn-menu");
 const closeBtn = document.querySelector("#btn-fechar");
 const modoNoturno = document.querySelector(".modo-noturno")
+const inputs = document.querySelectorAll(".input");
+
+function addcl(){
+	let parent = this.parentNode.parentNode;
+	parent.classList.add("focus");
+}
+
+function remcl(){
+	let parent = this.parentNode.parentNode;
+	if(this.value == ""){
+		parent.classList.remove("focus");
+	}
+}
+
+
+inputs.forEach(input => {
+	input.addEventListener("focus", addcl);
+	input.addEventListener("blur", remcl);
+});
 
 // Mostrar barra lateral
 menuBtn.addEventListener('click', () => {
