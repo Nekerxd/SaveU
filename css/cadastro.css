@@ -238,10 +238,8 @@ a:hover{
         min-width: 100%;
     }
 
-    .login-container{
-        padding: 5% 0;
+    .form-container{
         justify-content: center;
-
     }
 
     .wave{
