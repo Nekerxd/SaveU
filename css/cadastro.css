@@ -56,6 +56,10 @@ body{
     align-items: center;
 }
 
+.img img{
+    width: 100%;
+}
+
 .logo h2{
     text-transform: none;
     color: var(--cor-primaria);
@@ -78,21 +82,14 @@ body{
     justify-content: flex-end;
 }
 
-.img img{
-    width: 100%;
-}
 
 form{
     width: 80%;
     background-color: var(--cor-fundo);
 	border-radius: 10px;
-    padding: 5%;
-  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 25px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     min-width: 70%;
-}
-
-.profile-pic{
-    width: 200px;
 }
 
 form h2{
@@ -101,6 +98,15 @@ form h2{
     margin: 45px 0 0 0;
     color: var(--cor-escuro);
 }
+
+a{
+    text-decoration: none;
+}
+
+.profile-pic{
+    width: 200px;
+}
+
 
 .input-div::before, .input-div::after{
     content: '';
@@ -185,20 +191,21 @@ form h2{
     text-align: center;
 }
 
-.register:hover{
-    color: var(--cor-fundo)
+
+.details{
+    text-align: left;
+    margin-bottom: 20px;
 }
 
-a{
+.forgot{
     display: block;
     text-align: right;
-    text-decoration: none;
     color: var(--cor-info-escuro);
     font-size: 0.9rem;
     transition: .3s;
 }
 
-a:hover{
+.forgot:hover{
     color: var(--cor-primaria-variante);
 }
 
@@ -239,7 +246,7 @@ a:hover{
     }
 
     form h2{
-        font-size: 2.4rem;
+        font-size: 2rem;
         margin: 8px 0;
         min-width: 100%;
     }
