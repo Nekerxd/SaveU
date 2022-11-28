@@ -2,11 +2,13 @@
 
 :root{
     --cor-primaria: #0076cd;
+    --cor-primaria-claro: #93C4FF;
     --cor-primaria-variante: #0095ff;
     --cor-info-escuro: #7d8da1;
     --cor-info-claro: #dce1eb;
     --cor-escuro: #363949;
     --cor-fundo: #f6f6f9;
+    --cor-branco: #fff;
 }
 
 *{
@@ -18,7 +20,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     overflow: hidden;
-    background: linear-gradient(-45deg, #ffffff, #87cdff);
+    background: linear-gradient(0deg, var(--cor-fundo), var(--cor-primaria-claro));
 }
 
 .wave{
@@ -30,10 +32,14 @@ body{
 
 .L{
     left: 0%;
+    justify-self: center;
+    align-self: flex-end;
 }
 
 .R{
     right: 0%;
+    justify-self: center;
+    align-self: center;
 }
 
 .container{
@@ -48,6 +54,13 @@ body{
 .img{
     display: flex;
     align-items: center;
+}
+
+.logo h2{
+    text-transform: none;
+    color: var(--cor-primaria);
+    font-size: 2rem;
+    margin: 0;
 }
 
 .form-container{
@@ -66,26 +79,26 @@ body{
 }
 
 .img img{
-    width: 500px;
+    width: 100%;
 }
 
 form{
-    width: 360px;
+    width: 80%;
     background-color: var(--cor-fundo);
 	border-radius: 10px;
-    padding: 0 30px 30px 30px;
+    padding: 5%;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     min-width: 70%;
 }
 
 .profile-pic{
-    width: 300px;
+    width: 200px;
 }
 
 form h2{
     font-size: 2rem;
     text-transform: uppercase;
-    margin: 15px 0;
+    margin: 45px 0 0 0;
     color: var(--cor-escuro);
 }
 
@@ -126,13 +139,6 @@ form h2{
 .input-div.focus::before, .input-div.focus::after{
     width: 50%;
 }
-.input-div .one{
-    margin-top: 0;
-}
-
-.input-div .two{
-    margin-bottom: 4px;
-}
 
 .i{
     display: flex;
@@ -156,7 +162,7 @@ form h2{
     top: 50%;
     transform: translateY(-50%);
     color: var(--cor-info-escuro);
-    font-size: 18px;
+    font-size: 1.1rem;
     transition: .3s;
 }
 
@@ -171,7 +177,7 @@ form h2{
     background: none;
     padding: 0.5rem 0.7rem;
     font-size: 1.2rem;
-    color: var(--cor-escuro)
+    color: var(--cor-escuro);
 }
 
 .register{
@@ -249,15 +255,11 @@ a:hover{
     .img{
         display: none;
     }
-    
-    .img img{
-        width: 400px;
-    }
 }
 
 @media screen and (max-width: 580px) {
     .profile-pic{
-        width: 200px;
+        width: 40%;
     }
     
     form{
@@ -265,6 +267,10 @@ a:hover{
     }
 
     form h2{
+        font-size: 1.5rem;
+    }
+    
+    .logo h2{
         font-size: 1.5rem;
     }
     
