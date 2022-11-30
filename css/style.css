@@ -557,11 +557,6 @@ main .ultimos-lancamentos a{
         width: 5.6rem;
     }
     
-    /* aside .sidebar a:last-child{
-        position: relative;
-        margin-top: 1.8rem;
-    } */
-    
     main .movimentacao{
         grid-template-columns: 1fr;
         gap: 0;
@@ -630,11 +625,6 @@ main .ultimos-lancamentos a{
         width: 100%;
         height: 3.4rem;
     }
-
-    /* aside .sidebar a:last-child{
-        position: absolute;
-        bottom: 5rem;
-    } */
     
     aside .fechar{
         display: inline-block;
